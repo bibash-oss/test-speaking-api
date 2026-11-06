@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Model files (large binary assets)
+/models/voices-*
+/models/*.onnx
+
+# Output / temp
+tmp/
+*.wav
+*.mp3
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
